@@ -18,7 +18,9 @@ MEM_FLASH   = 0x00
 MEM_SD      = 0x01
 
 ROTATION_NORMAL = 0x00
-ROTATION_180    = 0x01
+ROTATION_90    = 0x01
+ROTATION_180 = 0x02
+ROTATION_270 = 0x03
 
 # commands
 CMD_HANDSHAKE       = 0x00  # handshake
